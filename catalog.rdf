@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+  <rdf:RDF xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:locn="http://www.w3.org/ns/locn#" xmlns:hydra="http://www.w3.org/ns/hydra/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dct="http://purl.org/dc/terms/" xmlns:dcatapit="http://dati.gov.it/onto/dcatapit#" xmlns:vcard="http://www.w3.org/2006/vcard/ns#" xmlns:adms="http://www.w3.org/ns/adms#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+
+<dcatapit:Catalog rdf:about="https://github.com/marcovalente1/VicodelGargano/tree/main">
+  <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
+  <dct:title>Comune di Vico del Gargano</dct:title>
+  <dct:publisher>
+    <dcatapit:Agent rdf:about="c_l842">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+      <dct:identifier>c_l842</dct:identifier>
+      <foaf:name>Comune di Vico del Gargano</foaf:name>
+    </dcatapit:Agent>
+  </dct:publisher>
+  <dct:description>Opendata Comune di VIco del Gargano</dct:description>
+  <dct:language>it</dct:language>
+  <foaf:homepage rdf:resource="https://github.com/marcovalente1/VicodelGargano/tree/main#"/>
+  <dcat:themeTaxonomy>
+    <skos:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/data-theme">
+      <dct:title>Data Theme Vocabulary</dct:title>
+    </skos:ConceptScheme>
+  </dcat:themeTaxonomy>
+  <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-07-14</dct:modified>
+  <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-07-14</dct:issued>
+  <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+  <dcat:dataset rdf:resource="https://github.com/marcovalente1/VicodelGargano/tree/main/irreperibili"/>
+  <dcat:dataset rdf:resource="https://github.com/marcovalente1/VicodelGargano/tree/main/elettori"/>
+  <dcat:dataset rdf:resource="https://github.com/marcovalente1/VicodelGargano/tree/main/annotazioni-di-morte"/>
+  </dcatapit:Catalog>
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/SOCI">
+    <skos:prefLabel>Popolazione e società</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://github.com/marcovalente1/VicodelGargano/tree/main/irreperibili">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <dct:license/>
+    <dct:title>Irreperibili</dct:title>
+    <dcat:landingPage rdf:resource="https://github.com/marcovalente1/VicodelGargano/blob/main/Irreperibili.csv/"/>
+    <dct:description>Fornisce i dati degli irreperibili nel territorio di Vico del Gargano</dct:description>
+    <dct:identifier>c_l842:irreperibili</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
+    <dcat:contactPoint rdf:resource="www.comune.vicodelgargano.fg.it"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="c_l842">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>c_l842</dct:identifier>
+        <foaf:name>Comune di Vico del Gargano</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>c_l842</dct:identifier>
+        <foaf:name>Comune di Vico del Gargano</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100210">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">2816 demografia e popolazione</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-07-14</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-07-14</dct:issued>
+    <dcat:contactPoint rdf:resource="www.comune.vicodelgargano.fg.it"/>
+    <dcat:keyword>Irreperibili</dcat:keyword>
+    <dcat:keyword>Popolazione</dcat:keyword>
+    <dcat:keyword>Vico del Gargano</dcat:keyword>
+    <dcat:distribution rdf:resource="https://github.com/marcovalente1/VicodelGargano/tree/main/irreperibili/csv2"/>
+  </dcatapit:Dataset>
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/SOCI">
+    <skos:prefLabel>Popolazione e società</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://github.com/marcovalente1/VicodelGargano/tree/main/elettori">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <dct:license/>
+    <dct:title>Elettori</dct:title>
+    <dcat:landingPage rdf:resource="https://github.com/marcovalente1/VicodelGargano/blob/main/Elettori.csv/"/>
+    <dct:description>Fornisce i dati aggiornati degli elettori divisi in sezioni elettorali</dct:description>
+    <dct:identifier>c_l842:elettori</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
+    <dcat:contactPoint rdf:resource="www.comune.vicodelgargano.fg.it"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="c_l842">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>c_l842</dct:identifier>
+        <foaf:name>Comune di Vico del Gargano</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>c_l842</dct:identifier>
+        <foaf:name>Comune di Vico del Gargano</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100210">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">2816 demografia e popolazione</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-07-14</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-07-14</dct:issued>
+    <dcat:contactPoint rdf:resource="www.comune.vicodelgargano.fg.it"/>
+    <dcat:keyword>Elettori</dcat:keyword>
+    <dcat:keyword>Maschi</dcat:keyword>
+    <dcat:keyword>Femmine</dcat:keyword>
+    <dcat:distribution rdf:resource="https://github.com/marcovalente1/VicodelGargano/tree/main/elettori/csv3"/>
+  </dcatapit:Dataset>
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/SOCI">
+    <skos:prefLabel>Popolazione e società</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://github.com/marcovalente1/VicodelGargano/tree/main/annotazioni-di-morte">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <dct:license/>
+    <dct:title>Annotazioni di morte</dct:title>
+    <dcat:landingPage rdf:resource="https://github.com/marcovalente1/VicodelGargano/blob/main/Annotazioni%20Morte.csv/"/>
+    <dct:description>Fornisce i dati aggiornati agli atti di morte ad annotazioni</dct:description>
+    <dct:identifier>c_l842:annotazioni-di-morte</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
+    <dcat:contactPoint rdf:resource="www.comune.vicodelgargano.fg.it"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="c_l842">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>c_l842</dct:identifier>
+        <foaf:name>Comune di Vico del Gargano</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>c_l842</dct:identifier>
+        <foaf:name>Comune di Vico del Gargano</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100210">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">2816 demografia e popolazione</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-07-14</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-07-14</dct:issued>
+    <dcat:contactPoint rdf:resource="www.comune.vicodelgargano.fg.it"/>
+    <dcat:keyword>Morti</dcat:keyword>
+    <dcat:keyword>Annotazioni</dcat:keyword>
+    <dcat:keyword>Atti</dcat:keyword>
+    <dcat:distribution rdf:resource="https://github.com/marcovalente1/VicodelGargano/tree/main/annotazioni-di-morte/csv4"/>
+  </dcatapit:Dataset>
+  <dcatapit:Distribution rdf:about="https://github.com/marcovalente1/VicodelGargano/tree/main/irreperibili/csv2">
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/marcovalente1/VicodelGargano/refs/heads/main/Irreperibili.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>Dati formato CSV</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://github.com/marcovalente1/VicodelGargano/tree/main/elettori/csv3">
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/marcovalente1/VicodelGargano/refs/heads/main/Elettori.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>Dati formato CSV</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://github.com/marcovalente1/VicodelGargano/tree/main/annotazioni-di-morte/csv4">
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/marcovalente1/VicodelGargano/refs/heads/main/Annotazioni%20Morte.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>Dati formato CSV</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+<dcatapit:Organization rdf:about="www.comune.vicodelgargano.fg.it">
+  <rdf:type rdf:resource="vcard:Organization"/>
+  <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+  <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
+  <rdf:type rdf:resource="vcard:Kind"/>
+  <vcard:fn>Comune di Vico del Gargano</vcard:fn>
+  <vcard:hasEmail rdf:resource="protocollo@comune.vicodelgargano.fg.it"/>
+  <vcard:hasTelephone>884998338</vcard:hasTelephone>
+  <vcard:hasURL rdf:resource="www.comune.vicodelgargano.fg.it"/>
+</dcatapit:Organization>
+</rdf:RDF>
